@@ -1,12 +1,14 @@
 from random import randint
 
-print('Random generált 69420')
+print('Random generált szám kereső téma')
+
+szaminput = int(input("Melyik számot szeretnéd megkeresni?: "))
 
 def randomszam():
     probaszam = 0
     szam = 0
 
-    while szam != 69420:
+    while szam != szaminput:
         szam = randint(0, 999999)
         print(szam, end="\n")
         probaszam += 1
