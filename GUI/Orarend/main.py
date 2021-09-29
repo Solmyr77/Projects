@@ -13,13 +13,10 @@ alignstr = '%dx%d+%d+%d' % (width, height, (screenwidth - width) / 2, (screenhei
 root.geometry(alignstr)
 root.resizable(width=False, height=False)
 
-global ft
 ft = tkFont.Font(family='Helvetica',weight="bold", size=10)
 
-global lft
 lft = tkFont.Font(family='Helvetica',weight="bold", size=24)
 
-global olabel
 olabel = tk.Label(root, text="", justify=CENTER)
 
 
