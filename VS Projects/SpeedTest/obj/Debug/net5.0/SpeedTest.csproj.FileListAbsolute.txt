@@ -1,0 +1,16 @@
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\bin\Debug\net5.0\SpeedTest.exe
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\bin\Debug\net5.0\SpeedTest.deps.json
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\bin\Debug\net5.0\SpeedTest.runtimeconfig.json
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\bin\Debug\net5.0\SpeedTest.runtimeconfig.dev.json
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\bin\Debug\net5.0\SpeedTest.dll
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\bin\Debug\net5.0\ref\SpeedTest.dll
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\bin\Debug\net5.0\SpeedTest.pdb
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\obj\Debug\net5.0\SpeedTest.csproj.AssemblyReference.cache
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\obj\Debug\net5.0\SpeedTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\obj\Debug\net5.0\SpeedTest.AssemblyInfoInputs.cache
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\obj\Debug\net5.0\SpeedTest.AssemblyInfo.cs
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\obj\Debug\net5.0\SpeedTest.csproj.CoreCompileInputs.cache
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\obj\Debug\net5.0\SpeedTest.dll
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\obj\Debug\net5.0\ref\SpeedTest.dll
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\obj\Debug\net5.0\SpeedTest.pdb
+C:\Users\Solmyr\Desktop\Code\VS Projects\SpeedTest\obj\Debug\net5.0\SpeedTest.genruntimeconfig.cache

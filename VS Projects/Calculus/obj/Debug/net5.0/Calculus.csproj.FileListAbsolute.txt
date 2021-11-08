@@ -1,0 +1,16 @@
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\bin\Debug\net5.0\Calculus.exe
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\bin\Debug\net5.0\Calculus.deps.json
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\bin\Debug\net5.0\Calculus.runtimeconfig.json
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\bin\Debug\net5.0\Calculus.runtimeconfig.dev.json
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\bin\Debug\net5.0\Calculus.dll
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\bin\Debug\net5.0\ref\Calculus.dll
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\bin\Debug\net5.0\Calculus.pdb
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\obj\Debug\net5.0\Calculus.csproj.AssemblyReference.cache
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\obj\Debug\net5.0\Calculus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\obj\Debug\net5.0\Calculus.AssemblyInfoInputs.cache
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\obj\Debug\net5.0\Calculus.AssemblyInfo.cs
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\obj\Debug\net5.0\Calculus.csproj.CoreCompileInputs.cache
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\obj\Debug\net5.0\Calculus.dll
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\obj\Debug\net5.0\ref\Calculus.dll
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\obj\Debug\net5.0\Calculus.pdb
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\obj\Debug\net5.0\Calculus.genruntimeconfig.cache
