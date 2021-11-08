@@ -1,0 +1,5 @@
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\bin\Release\net5.0\publish\testing\Calculus.exe
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\bin\Release\net5.0\publish\testing\Calculus.dll
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\bin\Release\net5.0\publish\testing\Calculus.deps.json
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\bin\Release\net5.0\publish\testing\Calculus.runtimeconfig.json
+C:\Users\Solmyr\Desktop\Code\VS Projects\Calculus\bin\Release\net5.0\publish\testing\Calculus.pdb

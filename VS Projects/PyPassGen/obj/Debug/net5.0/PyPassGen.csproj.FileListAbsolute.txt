@@ -1,0 +1,5 @@
+C:\Users\Solmyr\Desktop\Code\VS Projects\PyPassGen\obj\Debug\net5.0\PyPassGen.csproj.AssemblyReference.cache
+C:\Users\Solmyr\Desktop\Code\VS Projects\PyPassGen\obj\Debug\net5.0\PyPassGen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Solmyr\Desktop\Code\VS Projects\PyPassGen\obj\Debug\net5.0\PyPassGen.AssemblyInfoInputs.cache
+C:\Users\Solmyr\Desktop\Code\VS Projects\PyPassGen\obj\Debug\net5.0\PyPassGen.AssemblyInfo.cs
+C:\Users\Solmyr\Desktop\Code\VS Projects\PyPassGen\obj\Debug\net5.0\PyPassGen.csproj.CoreCompileInputs.cache
