@@ -21,7 +21,7 @@ class Circle:
             circumference = 2 * math.pi * radius
             d.out["Kerület"].append(circumference)
 
-            area = math.pi * radius * radius
+            area = math.pi * radius**2
             d.out["Terület"].append(area)
 
             for key, value in d.out.items():

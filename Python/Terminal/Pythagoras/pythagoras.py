@@ -4,7 +4,6 @@ formula = input("Adja meg a kiszámolandó oldalt: ")
 
 if formula == 'c':
 
-    formc()
     sidea = int(input("Adja meg az A oldal hosszát: "))
     sideb = int(input("Adja meg a B oldal hosszát: "))
 

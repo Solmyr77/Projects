@@ -51,17 +51,22 @@ class Quadratic:
 
 
     def x1():
-        
-        result_plus = (-b + math.sqrt(b*b - 4*a*c))/2*a
-        rounded_result_plus = round(result_plus, 3)
-        label_1.config(text=rounded_result_plus)
+        try:
+            result_plus = (-b + math.sqrt(b*b - 4*a*c))/2*a
+            rounded_result_plus = round(result_plus, 3)
+            label_1.config(text=rounded_result_plus)
+        except:
+            label_1.config(text='Nincs eredmény')
 
 
     def x2():
 
-        result_minus = (-b - math.sqrt(b*b - 4*a*c))/2*a
-        rounded_result_minus = round(result_minus, 3)
-        label_1.config(text=rounded_result_minus)
+        try:
+            result_minus = (-b - math.sqrt(b*b - 4*a*c))/2*a
+            rounded_result_minus = round(result_minus, 3)
+            label_1.config(text=rounded_result_minus)
+        except:
+            label_1.config(text='Nincs eredmény')
 
 
 button_1 = ttk_button(root, text="'A' változó felvétele", style='Outline.TButton', command=Quadratic.button_var_a_record)

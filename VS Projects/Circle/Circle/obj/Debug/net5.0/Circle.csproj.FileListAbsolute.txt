@@ -1,0 +1,16 @@
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\bin\Debug\net5.0\Circle.exe
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\bin\Debug\net5.0\Circle.deps.json
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\bin\Debug\net5.0\Circle.runtimeconfig.json
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\bin\Debug\net5.0\Circle.runtimeconfig.dev.json
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\bin\Debug\net5.0\Circle.dll
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\bin\Debug\net5.0\ref\Circle.dll
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\bin\Debug\net5.0\Circle.pdb
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\obj\Debug\net5.0\Circle.csproj.AssemblyReference.cache
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\obj\Debug\net5.0\Circle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\obj\Debug\net5.0\Circle.AssemblyInfoInputs.cache
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\obj\Debug\net5.0\Circle.AssemblyInfo.cs
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\obj\Debug\net5.0\Circle.csproj.CoreCompileInputs.cache
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\obj\Debug\net5.0\Circle.dll
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\obj\Debug\net5.0\ref\Circle.dll
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\obj\Debug\net5.0\Circle.pdb
+C:\Users\Solmyr\Desktop\Code\VS Projects\Circle\Circle\obj\Debug\net5.0\Circle.genruntimeconfig.cache
