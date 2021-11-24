@@ -20,13 +20,20 @@ Python Terminal
 * CarDictionary_Test
 * Circle
 * Class_Test
+* CSV
 * Dice
+* AB5 Egyenlet_Test
 * Binomiális Egyenlet
 * ETA
 * Even_Odd
 * Exam_Test
+* Fibonacci Seq
+* Haromszog
+* KeyLog
 * Locate_Number
+* Lotto Simulator
 * Masodfoku_Egyenlet
+* Matplotlib_Test
 * Operator_Calculator
 * Orarend
 * Pontszam
@@ -36,5 +43,7 @@ Python Terminal
 * Rock Paper Scissors (WIP)
 * SalesTax
 * Sorting
-* Python Executon Speed Test
+* Python Execution Speed Test
 * Szorzat
+* Testing folder
+* WIP folder
