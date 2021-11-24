@@ -4,10 +4,11 @@ Stable
 Python GUI
 ------
 
-* Auto Button Presser
 * Calculator (V1, V2)
 * Orarend
 * Quadratic Equation
+* PyTube Downloader
+* YDL Downloader
 
 
 Python Terminal
