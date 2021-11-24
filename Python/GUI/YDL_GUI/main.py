@@ -11,6 +11,7 @@ root.resizable(width=False, height=False)
 
 
 url_entry = Entry(root, width=35, borderwidth=5)
+url_entry.insert(0, 'Link: ')
 working_label = Label(root, text='')
 
 

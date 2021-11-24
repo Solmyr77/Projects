@@ -5,7 +5,6 @@ import ttkbootstrap
 import pytube
 import threading
 import time
-import sys
 import os
 
 
@@ -80,7 +79,6 @@ class Downloader:
             closing_in -= 1
             Downloader.label_1.config(text=f'Done\nClosing in: {closing_in} seconds')
         root.destroy()
-        sys.exit()
 
 
     @classmethod
