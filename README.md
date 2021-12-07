@@ -27,10 +27,8 @@ Python Terminal
 * Binomiális Egyenlet
 * ETA
 * Even_Odd
-* Exam_Test
 * Fibonacci Seq
 * Haromszog
-* KeyLog
 * Locate_Number
 * Lotto Simulator
 * Masodfoku_Egyenlet
