@@ -52,7 +52,7 @@ class Quadratic:
 
     def x1():
         try:
-            result_plus = (-b + math.sqrt(b*b - 4*a*c))/2*a
+            result_plus = (-b + math.sqrt(b*b - 4*a*c))/(2*a)
             rounded_result_plus = round(result_plus, 3)
             label_1.config(text=rounded_result_plus)
         except:
@@ -62,7 +62,7 @@ class Quadratic:
     def x2():
 
         try:
-            result_minus = (-b - math.sqrt(b*b - 4*a*c))/2*a
+            result_minus = (-b - math.sqrt(b*b - 4*a*c))/(2*a)
             rounded_result_minus = round(result_minus, 3)
             label_1.config(text=rounded_result_minus)
         except:

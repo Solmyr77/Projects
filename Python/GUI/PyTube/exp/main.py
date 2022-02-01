@@ -1,5 +1,4 @@
 from tkinter import ttk, END, Entry, Label, Text, Tk, filedialog as fd
-from tkinter.constants import NO
 import ttkbootstrap
 import pytube
 import threading
@@ -27,7 +26,6 @@ class Downloader:
         self.url_entry = None
         self.itag_entry = None
         self.case_flag = None
-        self.yto = Downloader.ytObject(None, None, None, None)
 
 
 
@@ -70,8 +68,8 @@ class Downloader:
 
     @classmethod
     def set_url(self):
-        
-        
+
+
         """
             Destroys the set url page, gets the yt streams,
             places the ITag page on screen, places download
@@ -82,26 +80,28 @@ class Downloader:
         self.url = self.url_entry.get()
         self.url_entry.destroy()
         Downloader.set_url_button.destroy()
-        
-        
+
+
         self.yt = pytube.YouTube(self.url)
         stream_var_video = str(self.yt.streams.order_by('resolution').desc())
         stream_var_audio = str(self.yt.streams.filter(only_audio=True))
         spl_1 = stream_var_video.split(",")
         spl_2 = stream_var_audio.split(",")
-        textbox_video_variable = ("\n\n".join([",".join(spl_1[i:i+1]) for i in range(0,len(spl_1),1)]))
-        textbox_audio_variable = ("\n\n".join([",".join(spl_2[i:i+1]) for i in range(0,len(spl_2),1)]))
+        textbox_video_variable = "\n\n".join([",".join(spl_1[i : i + 1]) for i in range(len(spl_1))])
+        textbox_audio_variable = "\n\n".join([",".join(spl_2[i : i + 1]) for i in range(len(spl_2))])
+
+
         thumb = (f'\nThumbnail url: {self.yt.thumbnail_url}\n\n')
-        
-        
+
+
         text=Text(root, width=80, height=15, borderwidth=5)
         text.insert(END, thumb)
         text.insert(END, textbox_video_variable)
         text.insert(END, '\n\n')
         text.insert(END, textbox_audio_variable)
         text.grid(row=3, column=1)
-        
-        
+
+
         Downloader.label_2.grid(row=2, column=1)
         self.itag_entry.grid(row=0, column=0, columnspan=3)
         Downloader.set_itag_button.grid(row=1, column=1)
@@ -132,7 +132,7 @@ class Downloader:
 
         threading.Thread(target=Downloader.download, daemon=True).start()
         Downloader.label_1.grid(row=0, column=0, columnspan=3)
-        Downloader.label_1.config(text=f'Working...\nClosing after complete')
+        Downloader.label_1.config(text='Working...\nClosing after complete')
 
 
 
