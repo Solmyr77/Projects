@@ -7,7 +7,7 @@ def egyenlet():
     b = int(input('Adja meg a B-t: '))
     c = int(input('Adja meg a C-t: '))
 
-    sq_root = math.sqrt((b*b) - (4 * a * c))
+    sq_root = math.sqrt(b**2 - 4 * a * c)
 
     answer_plus = ((-b) + sq_root)/2
 
