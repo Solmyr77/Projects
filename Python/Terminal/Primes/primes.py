@@ -1,5 +1,4 @@
 import time
-from functools import cache
 
 lower = int(input("Adja meg az alsó határt: "))
 upper = int(input("Adja meg a felső határt: "))
@@ -8,8 +7,7 @@ start = time.time()
 
 primelist = []
 
-@cache
-def primes():
+def main():
 
     for num in range(lower,upper+1):
         if num>1:
@@ -19,15 +17,12 @@ def primes():
             else:
                 print(num)
                 primelist.append(str(num))
-                
-primes()
+    
+    end_time = (time.time() - start)
 
-end = time.time()
+    print (f'{lower} és {upper} között {(len(primelist))} Prímszám van')
+    print (f'A program lefutott {round(end_time, 3)} mp alatt')
 
-end_time = (end - start)
 
-end_rounded = round(end_time, 3)
-
-print (str(lower) + str(' és ') + str(upper) + str(' között ') + str((len(primelist))) + str(' Prímszám van'))
-
-print (str('A program lefutott ' + str(end_rounded) + str(' Másodperc alatt')))
+if __name__ == '__main__':
+    main()

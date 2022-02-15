@@ -1,6 +1,10 @@
 import dict as d
 import random
+import time
+import os
 
+def clear():
+    os.system('CLS')
 
 def Pass_gen():
 
@@ -32,3 +36,5 @@ def Pass_gen():
 
 if __name__ == "__main__":
     Pass_gen()
+    time.sleep(10)
+    clear()

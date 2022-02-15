@@ -1,17 +1,24 @@
-class Enemy:
-    def __init__(self, health, level, enemy_name):
-        self.health = health
-        self.level = level
-        self.enemy_name = enemy_name
+class Diak:
 
-    def name(self):
-        print('Név: ' + str(self.enemy_name))
-        print('Szint: ' + str(self.level))
-        print('HP: ' + str(self.health))
+    def __init__(self, nev, kor, osztaly):
+        self.nev = nev
+        self.kor = kor
+        self.osztaly = osztaly
 
-Nev = str(input('Adja meg az ellenség nevét: '))
-Szint = int(input('Adja meg az ellenség szintjét: '))
-Hp = int(input('Adja meg az ellenség HP-ját: '))
+    def output(self):
+        print(f'Név: {self.nev}')
+        print(f'Kor: {self.kor}')
+        print(f'Osztály: {self.osztaly}')
 
-enemy = Enemy(Hp, Szint, Nev)
-enemy.name()
+    def valami(self):
+        self.kor = ('10')
+        print(self.kor)
+
+diak_1 = Diak('Lajos', '5', '7')
+diak_2 = Diak('Feri', '5', '7')
+diak_3 = Diak('Jani', '5', '7')
+
+diak_1.output()
+diak_3.output()
+diak_3.valami()
+diak_3.output()

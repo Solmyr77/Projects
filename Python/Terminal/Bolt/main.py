@@ -1,29 +1,24 @@
-class Nyitvatartas():
+def bolt():
 
-    def __init__(self,time):
-        self.time = 0
+    while True:
 
-    def bolt():
+        time = int(input('Hány óra van?: '))
 
-        while True:
+        if 10 <= time <= 16:
+            print('A bolt nyitva van.')
+            break
 
-            time = int(input('Hány óra van?: '))
+        if time >= 25:
+            print('Érvénytelen idő.')
 
-            if 10 <= time <= 16:
-                print('A bolt nyitva van.')
-                break
+        elif time < 10:
+            print(str(10-time) + ' Óra múlva lesz nyitva.')
+            break
 
-            if time >= 25:
-                print('Érvénytelen idő.')
-
-            elif time < 10:
-                print(str(10-time) + ' Óra múlva lesz nyitva.')
-                break
-
-            elif time > 16:
-                print(str(time-16) + ' Órával ezelőtt bezárt.')
-                print(str(24-time+10) + ' Óra múlva nyit.')
-                break
+        elif time > 16:
+            print(str(time-16) + ' Órával ezelőtt bezárt.')
+            print(str(24-time+10) + ' Óra múlva nyit.')
+            break
 
 if __name__ == "__main__":
-    Nyitvatartas.bolt()
+    bolt()

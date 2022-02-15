@@ -1,30 +1,34 @@
-import dict as di
-from random import randint
-
-i = 1
-
-generated_list = []
-second_generated_list = []
-
-length = (int(input('Adja meg a jelszó hosszát: ')))
+import dict as d
+import random
 
 
-while i != length:
+def Pass_gen():
 
-    letter_x_gen_index = randint(0, 25)
-    symbol_y_gen_index = randint(0, 24)
-    letter_z_gen_index = randint(0, 25)
+    length = int(input('Adja meg a jelszó hosszát: '))
 
-    generated_x_letter = di.lowercase_letter_list[letter_x_gen_index]
-    generated_y_symbol = di.symbol_list[symbol_y_gen_index]
-    generated_z_letter = di.uppercase_letter_list[letter_z_gen_index]
-
-    generated_list.extend(generated_x_letter)
-    generated_list.extend(generated_y_symbol)
-    generated_list.extend(generated_z_letter)
-
-    i += 1
+    random.shuffle(d.lowercase_letter_list)
+    random.shuffle(d.uppercase_letter_list)
+    random.shuffle(d.symbol_list)
+    random.shuffle(d.digit_list)
+    random.shuffle(d.letter_list)
 
 
-print('A jelszó:')
-print("".join(generated_list[:length]))
+    generator_list = d.lowercase_letter_list + d.symbol_list + d.uppercase_letter_list + d.digit_list + d.letter_list
+    random.shuffle(generator_list)
+
+
+    generated_list = []
+
+    for i in range (length):
+
+        generated_list.append(random.choice(generator_list))
+
+
+    random.shuffle(generated_list)
+
+    print ('A generált jelszó: ')
+    print ("".join(generated_list))
+
+
+if __name__ == "__main__":
+    Pass_gen()
