@@ -45,7 +45,7 @@ void loop() {
   voltage = (voltage_a3 - voltage_a2) * 4.55;
 
 
-  //Switch mosfet on if voltage less than 4.25V
+  //Switch on mosfet if voltage less than 4.25V
   if (voltage < 4250) {
     digitalWrite(switchPin, 1);
   }
